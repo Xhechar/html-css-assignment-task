@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Assignment Task</title>
+    <style>
+      .body {
+        padding: 0;
+      }
+
+      .p1,
+      .p2 {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 15px;
+      }
+      .p2 {
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+      }
+
+      .entire-page {
+        display: grid;
+        justify-content: center;
+        background-color: rgb(214, 226, 240);
+        height: 100vh;
+        margin: 50px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      .contents {
+        background-color: white;
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto auto;
+      }
+      .image-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .qr-image {
+        width: 100%;
+        min-width: 200px;
+        border-radius: 10px;
+      }
+      .description {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="entire-page">
+      <div class="contents">
+        <div class="image-container">
+          <img class="qr-image" src="images/image-qr-code.png" alt="qr-image" />
+        </div>
+        <div class="description">
+          <p class="p1">Improve your front-end skills by building projects</p>
+          <p class="p2">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
